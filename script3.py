@@ -6,9 +6,10 @@ import pandas as pd
 def visual(data1,data2):
 
 	fig, ax = plt.subplots()
-	ax.plot(data1,label="original")
-	ax.plot(data2,label="transformed")
-	plt.legend()
+	ax.plot(data1,data2)
+	ax.set_title("visualization of linear transformation")
+	ax.set_xlabel("script1_output")
+	ax.set_ylabel("script2_output")
 	fig.savefig("linear_trans_vs_random.jpg",bbox_inches = "tight", dpi = 150)
 
 def read_file(file_name):
