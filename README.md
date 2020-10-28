@@ -12,5 +12,5 @@ This is a repository for testing figshare and zenodo. It contains script1.py whi
 * `pip freeze > requirements.txt` to save the dependencies in requirements.txt file  (4)
 ![screenshot](venv_screenshot.JPG)
 
-# Binder link  (5)
+## Binder link  (5)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RuohanRYAN/Zenodo_example/master)
