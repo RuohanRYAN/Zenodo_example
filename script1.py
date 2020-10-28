@@ -14,5 +14,7 @@ def save_file(content,file_name):
 
 args = sys.argv
 result = get_random()
-print(result)
+# print(result)
+print("The program runs")
+
 save_file(result,args[1])
