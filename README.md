@@ -3,14 +3,14 @@ This is a repository for testing figshare and zenodo. It contains script1.py whi
 
 # Reproducibility  
 ## create a virtual environment  
-* locate to the local directory that contains the random generator scripts. 
-* `pip install virtualenv` to install virtualenv package  
-* `py -m venv env ` to start a virtual environment where env is the name of your environment  
-* `.\env\Scripts\activate` to start the virtual environment 
-* `pip install numpy, matplotlib, pandas` to install the necessary dependencies to fun the random number generator scripts  
-* `python script1.py script1_output.csv` to run random number generator  
-* `pip freeze > requirements.txt` to save the dependencies in requirements.txt file  
+* locate to the local directory that contains the random generator scripts. (1)
+* `pip install virtualenv` to install virtualenv package  (1)
+* `py -m venv env ` to start a virtual environment where env is the name of your environment  (1)
+* `.\env\Scripts\activate` to start the virtual environment (1)
+* `pip install numpy, matplotlib, pandas` to install the necessary dependencies to fun the random number generator scripts  (2)
+* `python script1.py script1_output.csv` to run random number generator  (3)
+* `pip freeze > requirements.txt` to save the dependencies in requirements.txt file  (4)
 ![screenshot](venv_screenshot.JPG)
 
-# Binder link  
+# Binder link  (5)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RuohanRYAN/Zenodo_example/master)
