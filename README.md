@@ -11,3 +11,6 @@ This is a repository for testing figshare and zenodo. It contains script1.py whi
 * `python script1.py script1_output.csv` to run random number generator  
 * `pip freeze > requirements.txt` to save the dependencies in requirements.txt file  
 ![screenshot](venv_screenshot.JPG)
+
+# Binder link  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RuohanRYAN/Zenodo_example/master)
