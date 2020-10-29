@@ -15,5 +15,5 @@ This is a repository for testing figshare and zenodo. It contains script1.py whi
 ## Binder link  (5)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RuohanRYAN/Zenodo_example/master)
 
-## Comparison between dependencies listed and package manually installed  
+## Comparison between dependencies listed and package manually installed  (4)  
 I have manually installed numpy, pandas, and jupyter notebook as these are the required packages I need for executing my program in my virtual environment. Comparing with the requirements.txt file extracted by running pip freeze, I found that there are actually much more dependencies installed than what I have manully typed in. This is because the package I installed such as numpy, requires many dependencies, thus these dependencies will have to be intalled first before numpy which results in this large number of packages.  
